@@ -2,15 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.tsx";
 import { createGlobalStyle } from "styled-components";
-import "./index.css";
+
 import { RecoilRoot } from "recoil";
 import reset from "styled-reset";
 
 const GlobalStyles = createGlobalStyle`
-  
-
-
-${reset}
+  ${reset}
 
 
 
